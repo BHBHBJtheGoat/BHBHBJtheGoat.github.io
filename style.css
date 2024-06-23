@@ -1,0 +1,67 @@
+html {
+  height: 100%;
+  width: 100%;
+  background: black;
+  color: white;
+  text-align: center;
+  text-shadow: 0 0 10px #864ffe;
+  margin: 0;
+  display: inline-block;
+  padding: 15 px;
+  transition: color 0.5s, box-shadow 0.4s;
+   font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+}
+
+
+
+
+img {
+  width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #5e30eb;
+  transition: box-shadow 0.4s;
+
+}
+
+input {
+  margin: 0.4rem;
+
+}
+
+section {
+  border: 5px solid #5e30eb;
+  padding: 25px;
+  transition: transform 0.55s;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+sectin:hover {
+  transform: scale(1.05);
+}
+
+section:hover img {
+  transform: rotat(360deg)
+  transition: transform 0.55s;
+}
+
+section:hover h1{
+  transform: rotate(360deg);
+  transition: transform 0.65;
+}
+
+h1:hover, section:hover
+{
+  box-shadow: 0 0 10px #4d22b2;
+}
